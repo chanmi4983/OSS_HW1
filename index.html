@@ -3,14 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <title>Project 2.1</title> -->
+    <title>Welcome to My Homepage</title>
+    <style>/* 기본 스타일 */
+        body {
+            font: 100% Lucida Sans, Verdana;
+            margin: 20px;
+            line-height: 26px;
+        }
+
+        .container {
+            min-width: 900px;
+        }
+
+        .wrapper {
+            position: relative;
+            overflow: auto;
+        }
+
+        #top {
+            background-color: #04AA6D;
+            color: #ffffff;
+            padding: 15px;
+        }
+
+        #main {
+            padding: 10px;
+            margin: 0 210px;
+        }
+
+        #sidebar {
+            background-color: #32a4e7;
+            color: #ffffff;
+            padding: 10px;
+            width: 180px;
+            bottom: 0;
+            top: 0;
+            right: 0;
+            position: absolute;
+        }
+
+        #bottom {
+            border: 1px solid #d4d4d4;
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px;
+            font-size: 70%;
+            line-height: 14px;
+        }
+
+        a {
+            color: #000000;
+            text-decoration: underline;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Project 2.1</h1>
-    <ul>
-        <!-- <li><a href="file:///Users/nachanmi/Documents/24-2/2024WEBPROJECT/.htm/">No Style</a></li> -->
-        <li><a href="style1.html">Style 1</a></li>
-        <li><a href="style2.html">Style 2</a></li>
-    </ul>
+
+<div class="container wrapper">
+    <div id="top">
+        <h1>Welcome to My Homepage</h1>
+        <p>Use the menu to select different Stylesheets</p>
+    </div>
+    <div class="wrapper">
+        <div id="main">
+            <h2>Select Stylesheet</h2>
+            <ul>
+                <li><a href="style1.html">Style 1</a></li>
+                <li><a href="style2.html">Style 2</a></li>
+            </ul>
+            <h2>Same Page Different Stylesheets</h2>
+            <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets from the menu.</p>
+        </div>
+        <div id="sidebar">
+            <h3>Side-Bar</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        </div>
+    </div>
+    <div id="bottom">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    </div>
+</div>
+
 </body>
 </html>
