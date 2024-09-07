@@ -38,11 +38,11 @@
         .menuitem:hover{
             background-color: #ffffff;
         }
-        .menuitem:first-child{
+        /* .menuitem:first-child{
             background-color: #04AA6D;
             color: white;
             font-weight:bold;
-        }
+        } */
         #content{
             padding: 10px;
             margin: 0 210px;
@@ -88,19 +88,17 @@
     <div class = "middle">
         <div id = "menubar">
         <ul id = "menulist" style= "margin: 0; padding:0">
-        <li class = "menuitem" onclick = "redirectToPage('style1.html')" >Stylesheet 1</li>
-        <li class = "menuitem" onclick ="redirectToPage('style2.html')" >Stylesheet 2</li>
-        <li class = "menuitem" onclick = "redirectToPage('style3.html')">Stylesheet 3</li>
-        <li class = "menuitem" onclick = "redirectToPage('style4.html')" >Stylesheet 4</li>
-        <li class = "menuitem" onclick = "redirectToPage('nostyle.html')" >No Stylesheet</li>
+        <li class = "menuitem"  <a href="style1.htm">Stylesheet1 </a></li>
+        <li class = "menuitem" <a href="style2.htm">Stylesheet2 </a></li>
+        <li class = "menuitem" <a href = "index.html">No Stylesheet</a></li>
         </ul>
     </div>
-
+<!-- 
     <script>
         function redirectToPage(pageURL){
             location.href = pageURL;
         }
-    </script>
+    </script> -->
 
         <div id = "content">
             <h1>Same Page Different Stylesheets</h1>
